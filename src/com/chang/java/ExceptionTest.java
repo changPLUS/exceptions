@@ -2,8 +2,6 @@ package com.chang.java;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -23,26 +21,19 @@ public class ExceptionTest {
         //算术异常
         //test7();Exception in thread "main" java.lang.ArithmeticException: / by zero
         //编译时异常
-        test8();
+        //test8()
     }
+}
     //*********************************以下是编译时异常**********************************
-     public static void test8(){
-        try {
-
-
-            File file = new File("hello.txt");
-            FileInputStream fis = new FileInputStream(file);
-            int data = fis.read();
-            while (data != -1) {
-                System.out.print((char) data);
-                data = fis.read();
-            }
-            fis.close();
-        }catch (FileNotFoundException e){
-            e.printStackTrace();
-        }catch (IOException e){
-            e.printStackTrace();
+    /* public static void test8(){
+        File file = new File("hello.txt");
+        FileInputStream fis = new FileInputStream(file);
+        int data = fis.read();
+        while (data != -1){
+            System.out.print((char)data);
+            data = fis.read();
         }
+        fis.close();
     }
     //*********************************以下是运行是异常************************************
     public static void test1(){
@@ -76,5 +67,5 @@ public class ExceptionTest {
         int a = 10;
         int b = 0;
         int c = a / b;
-    }
-}
+    */
+

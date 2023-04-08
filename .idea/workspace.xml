@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa95c32-7bb1-4d92-ac8e-255f7f8695ad" name="变更" comment="提交周四下午练习">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chang/java/hello.txt" afterDir="false" />
+    <list default="true" id="8fa95c32-7bb1-4d92-ac8e-255f7f8695ad" name="变更" comment="提交周六晚上八点三十五接水前">
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/EcmDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/NegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/OverrideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chang/java/finallyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chang/java/ErrorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chang/java/ExceptionTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +57,61 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.ExceptionTest1">
-    <configuration name="ErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chang.java.ErrorTest" />
+  <component name="RunManager" selected="应用程序.EcmDef">
+    <configuration name="EcmDef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chang.java.EcmDef" />
       <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chang.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chang.java.ExceptionTest" />
+    <configuration name="OverrideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chang.java.OverrideTest" />
       <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chang.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chang.java.ExceptionTest1" />
+    <configuration name="StudentTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chang.java.StudentTest" />
+      <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chang.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chang.java.StudentTest" />
+      <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chang.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chang.java.StudentTest" />
       <module name="exceptions" />
       <extension name="coverage">
         <pattern>
@@ -82,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ExceptionTest1" />
-        <item itemvalue="应用程序.ExceptionTest" />
-        <item itemvalue="应用程序.ErrorTest" />
+        <item itemvalue="应用程序.EcmDef" />
+        <item itemvalue="应用程序.StudentTest" />
+        <item itemvalue="应用程序.StudentTest (2)" />
+        <item itemvalue="应用程序.StudentTest (1)" />
+        <item itemvalue="应用程序.OverrideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +145,8 @@
       <workItem from="1680770819751" duration="2903000" />
       <workItem from="1680951664338" duration="409000" />
       <workItem from="1680952082565" duration="3837000" />
-      <workItem from="1680955939616" duration="1293000" />
+      <workItem from="1680955939616" duration="17224000" />
+      <workItem from="1680978375920" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="提交周四下午练习">
       <created>1680773185269</created>
@@ -109,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680773185269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交周六晚上八点三十五接水前">
+      <created>1680957326263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680957326263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交周四下午练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交周四下午练习" />
+    <MESSAGE value="提交周六晚上八点三十五接水前" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交周六晚上八点三十五接水前" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
